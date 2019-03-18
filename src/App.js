@@ -47,6 +47,7 @@ class App extends Component {
       isAuthenticated: this.state.isAuthenticated,
       userHasAuthenticated: this.userHasAuthenticated
     };
+    console.log(process.env.REACT_APP_TEST_VAR);
 
     return (
       !this.state.isAuthenticating &&
